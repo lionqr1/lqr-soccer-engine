@@ -1,0 +1,8 @@
+{
+  "name": "soccer-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "description": "Lightweight, reusable soccer game engine for JavaScript (2D/3D).",
+  "license": "MIT"
+}
