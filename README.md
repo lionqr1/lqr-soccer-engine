@@ -1,4 +1,3 @@
-md
 # ⚽ Soccer Engine (JavaScript)
 
 A lightweight, modular soccer game engine designed for **2D or 3D games**.  
@@ -62,3 +61,25 @@ engine.setUpdateCallback((world, dt) => {
 });
 
 engine.start();
+📜 License
+MIT — free for personal and commercial use.
+
+Code
+
+---
+
+# ⭐ STEP 5 — Add the Engine Code (IN ORDER)
+
+Now paste each file EXACTLY as shown.
+
+---
+
+# 📄 `src/index.js`
+
+```js
+export { GameEngine } from './engine/GameEngine.js';
+export { World } from './engine/World.js';
+export { Ball } from './engine/Ball.js';
+export { Player } from './engine/Player.js';
+export { Team } from './engine/Team.js';
+export { AIController } from './engine/AIController.js';
